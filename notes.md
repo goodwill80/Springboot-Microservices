@@ -1,0 +1,1 @@
+run maven clean verify to check that the setup is okay
