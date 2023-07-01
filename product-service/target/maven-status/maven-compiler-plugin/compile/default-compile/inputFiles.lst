@@ -1,0 +1,7 @@
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/product-service/src/main/java/com/microservice/productservice/ProductServiceApplication.java
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/product-service/src/main/java/com/microservice/productservice/controller/ProductController.java
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/product-service/src/main/java/com/microservice/productservice/model/Product.java
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/product-service/src/main/java/com/microservice/productservice/dto/ProductRequest.java
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/product-service/src/main/java/com/microservice/productservice/repository/ProductRepository.java
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/product-service/src/main/java/com/microservice/productservice/dto/ProductResponse.java
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/product-service/src/main/java/com/microservice/productservice/service/ProductService.java
