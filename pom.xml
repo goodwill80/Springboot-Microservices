@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Transfer from Product-service - to be used as parent for all services -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -27,6 +28,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <!-- Transfer from product-service - This needs to be in the parent POM -->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -39,6 +41,7 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- This build spec is the same with all services and need to be in parent POM -->
     <build>
         <plugins>
             <plugin>
