@@ -23,7 +23,7 @@ public class OrderService {
     private OrderRepository orderRepository;
 
     @Autowired
-    private WebClient webClient;
+    private WebClient.Builder webClientBuilder;
 
     public void placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
@@ -42,8 +42,8 @@ public class OrderService {
                 .toList();
 
        // API Call to inventory service to check product inventory before placing order
-        InventoryResponse[] inventoryResponseArray = webClient.get()
-                .uri("http://localhost:8082/api/inventory",
+        InventoryResponse[] inventoryResponseArray = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventory",
                         uriBuilder -> uriBuilder.queryParam("skuCode", skuCodeStrings).build())
                 .retrieve()
                 .bodyToMono(InventoryResponse[].class) // return data type from web-flux - to enable reading of the return data

@@ -4,5 +4,7 @@
 /Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/order-service/src/main/java/com/microservice/orderservice/OrderServiceApplication.java
 /Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/order-service/src/main/java/com/microservice/orderservice/dto/OrderLineItemsDto.java
 /Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/order-service/src/main/java/com/microservice/orderservice/repository/OrderRepository.java
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/order-service/src/main/java/com/microservice/orderservice/dto/InventoryResponse.java
+/Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/order-service/src/main/java/com/microservice/orderservice/config/WebClientConfig.java
 /Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/order-service/src/main/java/com/microservice/orderservice/dto/OrderRequest.java
 /Users/hokitjonathan/Desktop/SCTP/SpringBoot/Microservices/Spring-microservices/order-service/src/main/java/com/microservice/orderservice/model/Order.java
